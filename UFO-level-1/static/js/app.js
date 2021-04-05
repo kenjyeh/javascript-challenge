@@ -61,10 +61,3 @@ button1.on("click", function() {
     });
 });
 
-// unfilter button
-var button2 = d3.select("#unfilter-btn");
-
-button2.on("click", function(){
-    tbody.html("");
-    populateTable();
-});
